@@ -86,9 +86,9 @@
 		AB04A2FB2C31E2560036C18C /* Infomation.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Infomation.plist; sourceTree = "<group>"; };
 		AB04A2FD2C3647FA0036C18C /* CLLocationCoordinate2DExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2DExtensions.swift; sourceTree = "<group>"; };
 		AB04A2FF2C366A250036C18C /* CarRepairShopAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRepairShopAnnotationView.swift; sourceTree = "<group>"; };
-		AB04A3012C37FC5E0036C18C /* ProjectTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ProjectTest2.app; path = "/Users/arthurfoochejit/Desktop/ProjectTest2/build/Debug-iphoneos/ProjectTest2.app"; sourceTree = "<absolute>"; };
-		AB04A3022C37FC5E0036C18C /* ProjectTest2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ProjectTest2Tests.xctest; path = "/Users/arthurfoochejit/Desktop/ProjectTest2/build/Debug-iphoneos/ProjectTest2.app/PlugIns/ProjectTest2Tests.xctest"; sourceTree = "<absolute>"; };
-		AB04A3032C37FC5E0036C18C /* ProjectTest2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ProjectTest2UITests.xctest; path = "/Users/arthurfoochejit/Desktop/ProjectTest2/build/Debug-iphoneos/ProjectTest2UITests-Runner.app/PlugIns/ProjectTest2UITests.xctest"; sourceTree = "<absolute>"; };
+		AB04A3012C37FC5E0036C18C /* ProjectTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ProjectTest2.app; path = "ProjectTest2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB04A3022C37FC5E0036C18C /* ProjectTest2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ProjectTest2Tests.xctest; path = "ProjectTest2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB04A3032C37FC5E0036C18C /* ProjectTest2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ProjectTest2UITests.xctest; path = "ProjectTest2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB04A3042C39E19C0036C18C /* ShopDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopDetailView.swift; sourceTree = "<group>"; };
 		AB04A3062C4B90540036C18C /* SpeedManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedManager.swift; sourceTree = "<group>"; };
 		AB04A3082C4B93E20036C18C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -612,10 +612,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ProjectTest2/Preview Content\"";
-				DEVELOPMENT_TEAM = 5W3NK8JX3A;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = /Users/arthurfoochejit/Desktop/ProjectTest2/ProjectTest2/Infomation.plist;
+				INFOPLIST_FILE = ProjectTest2/Infomation.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -642,10 +642,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ProjectTest2/Preview Content\"";
-				DEVELOPMENT_TEAM = 5W3NK8JX3A;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = /Users/arthurfoochejit/Desktop/ProjectTest2/ProjectTest2/Infomation.plist;
+				INFOPLIST_FILE = ProjectTest2/Infomation.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -671,7 +671,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5W3NK8JX3A;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
@@ -691,7 +691,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5W3NK8JX3A;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
@@ -710,7 +710,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5W3NK8JX3A;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = projectTest2.ProjectTest2UITests;
@@ -728,7 +728,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5W3NK8JX3A;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = projectTest2.ProjectTest2UITests;

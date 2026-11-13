@@ -109,10 +109,22 @@ func routes(_ app: Application) throws {
                 }
 //                formattedPhoneNumber = "whatsapp:" + formattedPhoneNumber
                 
+                guard let accountSid = Environment.get("TWILIO_ACCOUNT_SID"),
+                      let authToken = Environment.get("TWILIO_AUTH_TOKEN"),
+                      let fromNumber = Environment.get("TWILIO_FROM_NUMBER"),
+                      !accountSid.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty,
+                      !authToken.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty,
+                      !fromNumber.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else {
+                    return req.eventLoop.makeFailedFuture(Abort(
+                        .serviceUnavailable,
+                        reason: "Emergency messaging is not configured. Set TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN and TWILIO_FROM_NUMBER."
+                    ))
+                }
+
                 let twilioService = TwilioService(
-                    accountSid: "AC13b9efe80050546a899a70e5502629fc",
-                    authToken: "fda757b146441d9a70e6c596e7948d3f",
-                    fromWhatsAppNumber: "+16207091504"
+                    accountSid: accountSid,
+                    authToken: authToken,
+                    fromWhatsAppNumber: fromNumber
                 )
                 
                 // Generate URLs for navigation apps

@@ -1,0 +1,13 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+# Swift/Xcode generated and personal files
+.build/
+.swiftpm/
+DerivedData/
+build/
+**/xcuserdata/
+*.xcuserstate
+.DS_Store
+Pods/
